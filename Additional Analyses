@@ -1,0 +1,13 @@
+
+##Effect Modificaiton Analyses
+#Code was replicated from previous DID analysis and meta-analyses with the subset function used in each DID regression for different variables of interest
+
+
+##Poisson Senstivity Model
+#Code was replicated from previous DID analysis and meta-analyses with each model changed to family=quasipoisson from 
+family=gaussian used in each DID regression for different variables of interst
+
+
+##Quadratic Sensitivity Models
+#Code was replicated from previous DID analysis and meta-analyses with newly created quadratic terms for each of the 
+four temperature simply by squaring each variable. These temperature variables were substituted into the regression models instead of the original terms.
